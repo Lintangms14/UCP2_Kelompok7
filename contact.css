@@ -1,0 +1,125 @@
+.pesan {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.pesan-box {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 50px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+button:hover {
+  background-color: rgb(231, 91, 91);
+}
+
+.row {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.row .col-4 a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.row .col-4 p {
+  font-size: 20px;
+}
+
+.row .col-4 a:hover {
+  color: red;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding-top: 10px;
+}
+
+.col > img {
+  width: 50%;
+  height: auto;
+}
+
+.col ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.col a i {
+  color: white;
+  font-size: 30px;
+}
+
+.col a {
+  text-decoration: none;
+}
+
+.sosmed {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.col ul li a:hover {
+  color: red;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.pesan-box {
+  background-color: #f8f9fa; 
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); 
+  width: 80%; 
+  max-width: 600px; 
+  margin: 0 auto; 
+}
+
+.pesan-box form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.pesan-box label {
+  font-weight: bold; 
+}
+
+.pesan-box textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ced4da; 
+  border-radius: 5px; 
+  resize: vertical;
+}
+
+.pesan-box .submit {
+  background-color: #007bff; 
+  color: #fff; 
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px; 
+  cursor: pointer;
+}
+
+.pesan-box .submit:hover {
+  background-color: #0056b3;
+}

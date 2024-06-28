@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+  cursor: pointer;
+}
+
+.kartu {
+  text-align: center;
+}
+
+.popup2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.kartu h2 {
+  cursor: pointer;
+  color: red;
+}
+
+.modal-body {
+  text-align: center;
+}
+
+.header2 {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  padding-bottom: 50px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding-top: 20px;
+}
+
+.col > img {
+  width: 50%;
+  height: auto;
+}
+
+.col ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.col ul li a:hover {
+  color: red;
+}
+
+.col a i {
+  color: white;
+  font-size: 30px;
+}
+
+.col a {
+  text-decoration: none;
+}
+
+.sosmed {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.navbar {
+  font-family: 'Roboto', sans-serif; 
+}
+
+.navbar-brand {
+  font-size: 1.5rem; 
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.2rem; 
+}
+
+.Header1 {
+  position: relative;
+  height: 60vh;
+  background: url("https://images-tm.tempo.co/all/2019/05/15/719241/719241_1200.jpg") center/cover no-repeat;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.Header1 .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.Header1-content {
+  position: relative;
+  z-index: 1;
+}
+
+.Header1-content h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+.Header1 h2 {
+  font-size: 1.5em; 
+}
+
+.modal-title {
+  font-family: 'Poppins', sans-serif;
+}
+
+.modal-body {
+  font-size: 1.1em;
+}
+
+.header2 {
+  font-family: 'Roboto', sans-serif; 
+}
+
+.header2 h1 {
+  font-size: 2.5em; 
+}
+
+.header2 p {
+  font-size: 1.1em; 
+}
+
+.role1 h2 {
+  font-family: 'Open Sans', sans-serif; 
+  font-size: 1.2em; 
+}
+
+.role1 p {
+  font-size: 0.9em; 
+}
+
+footer {
+  font-family: 'Nunito', sans-serif;
+}
+
+footer ul li a {
+  font-size: 1em;
+}
+
+footer .sosmed i {
+  font-size: 1.5em; 
+}
